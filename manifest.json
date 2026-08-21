@@ -1,7 +1,7 @@
 {
   "id": "v-readat",
   "name": "V.ReadAt",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "minAppVersion": "1.0.0",
   "description": "Auto-writes a read_at timestamp on file open, with customizable sync for additional fields.",
   "author": "vvan",
