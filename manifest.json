@@ -1,10 +1,10 @@
 {
   "id": "v-readat",
   "name": "V.ReadAt",
-  "version": "1.2.0",
+  "version": "1.1.0",
   "minAppVersion": "1.0.0",
-  "description": "打开文件自动写入 read_at 时间戳，支持自定义同步更新其他字段",
+  "description": "Auto-writes a read_at timestamp on file open, with customizable sync for additional fields.",
   "author": "vvan",
-  "authorUrl": "mailto:vcom@live.com",
+  "authorUrl": "https://github.com/vans789/obsidian-v-readat",
   "isDesktopOnly": false
 }
