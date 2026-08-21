@@ -38,3 +38,28 @@
 
 ### 默认配置（仅写 read_at）
 开启插件后，打开任意符合监控路径的笔记，其 Frontmatter 会自动添加：
+```yaml
+---
+read_at: 2026-08-21T10:30:00.000Z
+---
+```
+
+### 配置额外字段（status、priority）
+在设置面板的“同步更新其他 YAML 字段”中输入：
+```
+status=read
+priority=high
+```
+打开笔记后，Frontmatter 会自动变为：
+```yaml
+---
+read_at: 2026-08-21T10:30:00.000Z
+status: read
+priority: high
+---
+```
+
+## 🧑‍💻 作者
+
+- 作者：vvan
+- 邮箱：vcom@live.com
